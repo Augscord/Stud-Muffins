@@ -212,3 +212,41 @@ footer a{
 footer a:hover {
     text-decoration-line: underline;
 }
+
+@media only screen and (max-width: 768px) {
+    nav a {
+        display: none;
+    }
+
+    nav button {
+        display: inline-block;
+    }
+
+    .title {
+    width: 200px;
+    margin: 10px 0;
+    margin-left: 5px;
+    }
+
+    header .logo {
+        height: 450px;
+    }
+
+    .about h1 {
+        font-size: 60px;
+    }
+
+    .about h2 {
+        font-size: small;
+    }
+
+    .menu {
+        text-align:center;
+    }
+
+    .special {
+        color: white;
+        width: fit-content;
+        padding: 8px;
+    }
+}
