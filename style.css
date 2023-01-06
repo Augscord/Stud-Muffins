@@ -1,0 +1,212 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    display: block;
+    background-image: url(./sources/Stud\ Muffins\ Pattern.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*--Navigation--*/
+
+nav {
+    margin: 0;
+    height: 80px;
+    display:flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.title {
+    width: 300px;
+    margin: 10px 0;
+    margin-left: 30px;
+}
+
+nav a {
+    margin: 10px;
+    font-weight: 500;
+}
+
+nav button {
+    background-color:rgb(255, 154, 171);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+/*--Header--*/
+
+header {
+display: flex;
+justify-content: center;
+padding: 90px;
+background-image: url(./sources/stripe\ wall.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+header .logo {
+    height: 800px;
+}
+/*--No Pain No Grain--*/
+
+.about {
+height: 300px;
+width: 100%;
+display: flex;
+flex-flow: column nowrap;
+text-align: center;
+background-color:rgb(255, 154, 171);
+color:white;
+margin-bottom: 12px;
+}
+
+.about h1 {
+    font-size: 100px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.about h2 {
+    font-size: 20px;
+    height: 20px;
+}
+
+/* --Menu Items--*/
+
+.menu, .team {
+    width: 100%;
+}
+
+.menu img {
+    height: 500px;
+    width: 500px;
+}
+
+.box {
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.special {
+    color: white;
+    background-color: rgb(255, 154, 171);
+    width: fit-content;
+    padding: 30px;
+    margin-top: 6px;
+}
+
+.special h1{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#blueberry, #chocolate, #banana, #lemon, #cookies, #cakepop{
+    background-color: rgb(255, 154, 171);
+    padding: 30px;
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --Meet the Team--*/
+
+.teammates {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.team {
+    padding-top: 200px;
+}
+
+.team h1 {
+    display: none;
+}
+
+.teammate {
+    width: 300px;
+    height: 575px;
+    display: flex;
+    align-items: flex-end;
+    margin: 6px;
+    border: white solid 6px;
+}
+
+.position {
+    background-color: rgb(134, 201, 218);
+    color: white;
+    width: 100%;
+}
+
+.position, h3, p {
+    padding-left: 4px;
+}
+
+.position h3 {
+    font-size: 18px;
+}
+
+#rose {
+    background-image: url(./sources/Rose\ Galvin.jpg);
+    background-position: center 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sal {
+    background-image: url(./sources/Joshua\ Sal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+#lucy {
+    background-image: url(./sources/Lucy\ Nguyen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 6in;    
+}
+
+footer {
+    background-color:rgb(134, 201, 218);
+    text-align: center;
+    padding: 20px;
+    font-size: 9px;
+    color: white;
+}
+
+footer a{
+    text-decoration-line: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration-line: underline;
+}
